@@ -36,9 +36,6 @@
           }, {
               "AttributeName": "target_value",
               "AttributeType": "float"
-          }, {
-            "AttributeName": "item_id",
-            "AttributeType": "string"
           }
         ]
       }
