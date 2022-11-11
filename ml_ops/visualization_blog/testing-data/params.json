@@ -16,8 +16,7 @@
     "ForecastTypes":[
       "0.10",
       "0.50",
-      "0.90",
-      "mean"
+      "0.90"
     ]
   },
   "TimestampFormat": "yyyy-MM-dd",
