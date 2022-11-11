@@ -1,22 +1,21 @@
 {
   "DatasetGroup": {
-    "DatasetGroupName":"blaze_datasetgroup",
+    "DatasetGroupName":"blaze_cer_dataset",
     "Domain": "CUSTOM"
   },
   "Predictor": {
     "PredictorName": "blaze_cer_predictor",
     "ForecastHorizon": 30,
     "FeaturizationConfig":{
-      "ForecastFrequency":"1D"
+      "ForecastFrequency":"D"
     },
     "PerformAutoML": true
   },
   "Forecast": {
-    "ForecastName": "blaze_cer_forecast",
+    "ForecastName": "GithubForecastExample",
     "ForecastTypes":[
       "0.10",
       "0.50",
-      "0.90",
       "0.99",
       "mean"
     ]
@@ -24,10 +23,10 @@
   "TimestampFormat": "yyyy-MM-dd",
   "Datasets": [
     {
-      "DatasetName": "blaze_cer_trend",
+      "DatasetName": "blaze_cer_dataset",
       "Domain": "CUSTOM",
       "DatasetType": "TARGET_TIME_SERIES",
-      "DataFrequency": "1D",
+      "DataFrequency": "D",
       "Schema": {
         "Attributes": [
           {
@@ -36,6 +35,9 @@
           }, {
               "AttributeName": "target_value",
               "AttributeType": "float"
+          }, {
+            "AttributeName": "item_id",
+            "AttributeType": "string"
           }
         ]
       }
