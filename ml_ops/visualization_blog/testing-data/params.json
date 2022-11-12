@@ -12,7 +12,7 @@
     "PerformAutoML": true
   },
   "Forecast": {
-    "ForecastName": "blaze_cer+forecast",
+    "ForecastName": "blaze_cer_forecast",
     "ForecastTypes":[
       "0.10",
       "0.65",
