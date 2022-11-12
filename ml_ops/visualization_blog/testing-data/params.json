@@ -5,17 +5,17 @@
   },
   "Predictor": {
     "PredictorName": "blaze_cer_predictor",
-    "ForecastHorizon": 30,
+    "ForecastHorizon": 6,
     "FeaturizationConfig":{
       "ForecastFrequency":"D"
     },
     "PerformAutoML": true
   },
   "Forecast": {
-    "ForecastName": "GithubForecastExample",
+    "ForecastName": "blaze_cer+forecast",
     "ForecastTypes":[
       "0.10",
-      "0.50",
+      "0.65",
       "0.90"
     ]
   },
@@ -42,5 +42,5 @@
       }
     }
   ],
-  "PerformDelete": false
+  "PerformDelete": true
 }
