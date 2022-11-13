@@ -5,9 +5,9 @@
   },
   "Predictor": {
     "PredictorName": "blaze_cer_predictor",
-    "ForecastHorizon": 4,
+    "ForecastHorizon": 30,
     "FeaturizationConfig":{
-      "ForecastFrequency":"W"
+      "ForecastFrequency":"1D"
     },
     "PerformAutoML": true
   },
