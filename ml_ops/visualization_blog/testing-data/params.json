@@ -5,16 +5,18 @@
   },
   "Predictor": {
     "PredictorName": "blaze_cer_predictor",
-    "ForecastHorizon": 1,
+    "ForecastHorizon": 4,
     "FeaturizationConfig":{
-      "ForecastFrequency":"M"
+      "ForecastFrequency":"W"
     },
     "PerformAutoML": true
   },
   "Forecast": {
     "ForecastName": "blaze_cer_forecast",
     "ForecastTypes":[
-      "0.65"
+      "0.10",
+      "0.65",
+      "0.90"
     ]
   },
   "TimestampFormat": "yyyy-MM-dd",
