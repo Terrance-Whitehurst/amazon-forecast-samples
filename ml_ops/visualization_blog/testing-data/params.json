@@ -1,10 +1,10 @@
 {
   "DatasetGroup": {
-    "DatasetGroupName":"blaze_cer_dataset_6",
+    "DatasetGroupName":"blaze_cer_dataset_7",
     "Domain": "CUSTOM"
   },
   "Predictor": {
-    "PredictorName": "blaze_cer_predictor_6",
+    "PredictorName": "blaze_cer_predictor_7",
     "ForecastHorizon": 30,
     "FeaturizationConfig":{
       "ForecastFrequency":"1D"
@@ -12,7 +12,7 @@
     "PerformAutoML": true
   },
   "Forecast": {
-    "ForecastName": "blaze_cer_forecast_6",
+    "ForecastName": "blaze_cer_forecast_7",
     "ForecastTypes":[
       "0.10",
       "0.50",
@@ -22,7 +22,7 @@
   "TimestampFormat": "yyyy-MM-dd",
   "Datasets": [
     {
-      "DatasetName": "blaze_cer_dataset_6",
+      "DatasetName": "blaze_cer_dataset_7",
       "Domain": "CUSTOM",
       "DatasetType": "TARGET_TIME_SERIES",
       "DataFrequency": "D",
