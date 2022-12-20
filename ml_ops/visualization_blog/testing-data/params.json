@@ -31,7 +31,7 @@
             "AttributeType": "timestamp"
           }, {
               "AttributeName": "target_value",
-              "AttributeType": "float"
+              "AttributeType": "integer"
           }, {
             "AttributeName": "item_id",
             "AttributeType": "string"
