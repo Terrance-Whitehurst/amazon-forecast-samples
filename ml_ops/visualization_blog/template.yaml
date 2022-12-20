@@ -27,7 +27,7 @@ Resources:
     Type: AWS::Athena::WorkGroup
     Properties: 
       Description: Forecast queries workgroup 
-      Name: ForecastGroup
+      Name: ForecastGroup_2
       RecursiveDeleteOption: true
       State: ENABLED
       WorkGroupConfiguration: 
