@@ -5,7 +5,7 @@
   },
   "Predictor": {
     "PredictorName": "blaze_cer_predictor_8",
-    "ForecastHorizon": 30,
+    "ForecastHorizon": 90,
     "FeaturizationConfig":{
       "ForecastFrequency":"1D"
     },
@@ -14,9 +14,7 @@
   "Forecast": {
     "ForecastName": "blaze_cer_forecast_8",
     "ForecastTypes":[
-      "0.10",
-      "0.50",
-      "0.90"
+      "0.50"
     ]
   },
   "TimestampFormat": "yyyy-MM-dd",
